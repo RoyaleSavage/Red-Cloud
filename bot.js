@@ -1,7 +1,7 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
-console.log("RoyaleSavage#6176");
-var prefix = "+";
+console.log("Legend#1933");
+var prefix = ".";
 client.on("message", message => {
 
             if (message.content.startsWith(prefix + "dm")) {
@@ -18,13 +18,13 @@ client.on("message", message => {
 
 client.on('ready', () => {
    console.log(`----------------`);
-      console.log(`Astro Terminal - Bot : RoyaleSavage#6176`);
+      console.log(`Red-Cloud - Bot : Legend#1933`);
         console.log(`----------------`);
-      console.log(`ON ${client.guilds.size} Servers '     Bot made by : RoyaleSavage#6176 ' `);
+      console.log(`ON ${client.guilds.size} Servers '     Bot made by : Legend#1933 ' `);
     console.log(`----------------`);
   console.log(`Logged in as ${client.user.tag}!`);
   client.user.setStatus("dnd");
-  client.user.setActivity(`Astro Services Discord`, { type: "Watching" });
+  client.user.setActivity(`Customers Of Red Cloud`, { type: "Watching" });
 });
 
 client.login(process.env.BOT_TOKEN);
